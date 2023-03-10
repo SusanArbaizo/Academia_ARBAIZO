@@ -1,0 +1,15 @@
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.AppWin.dll
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.AppWin.pdb
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.Entidades.dll
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.Negocio.dll
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.Data.dll
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.Entidades.pdb
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.Negocio.pdb
+C:\Users\Server\source\repos\Academia\Academia.AppWin\bin\Debug\Academia.Data.pdb
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.csproj.AssemblyReference.cache
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.FrmNotas.resources
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.csproj.GenerateResource.cache
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.csproj.CoreCompileInputs.cache
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.csproj.CopyComplete
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.dll
+C:\Users\Server\source\repos\Academia\Academia.AppWin\obj\Debug\Academia.AppWin.pdb

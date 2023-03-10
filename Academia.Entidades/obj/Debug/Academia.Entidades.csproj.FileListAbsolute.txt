@@ -1,0 +1,6 @@
+C:\Users\Server\source\repos\Academia\Academia.Entidades\bin\Debug\Academia.Entidades.dll
+C:\Users\Server\source\repos\Academia\Academia.Entidades\bin\Debug\Academia.Entidades.pdb
+C:\Users\Server\source\repos\Academia\Academia.Entidades\obj\Debug\Academia.Entidades.csproj.AssemblyReference.cache
+C:\Users\Server\source\repos\Academia\Academia.Entidades\obj\Debug\Academia.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Server\source\repos\Academia\Academia.Entidades\obj\Debug\Academia.Entidades.dll
+C:\Users\Server\source\repos\Academia\Academia.Entidades\obj\Debug\Academia.Entidades.pdb

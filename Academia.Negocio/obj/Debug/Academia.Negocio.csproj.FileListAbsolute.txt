@@ -1,0 +1,11 @@
+C:\Users\Server\source\repos\Academia\Academia.Negocio\bin\Debug\Academia.Negocio.dll
+C:\Users\Server\source\repos\Academia\Academia.Negocio\bin\Debug\Academia.Negocio.pdb
+C:\Users\Server\source\repos\Academia\Academia.Negocio\bin\Debug\Academia.Data.dll
+C:\Users\Server\source\repos\Academia\Academia.Negocio\bin\Debug\Academia.Entidades.dll
+C:\Users\Server\source\repos\Academia\Academia.Negocio\bin\Debug\Academia.Data.pdb
+C:\Users\Server\source\repos\Academia\Academia.Negocio\bin\Debug\Academia.Entidades.pdb
+C:\Users\Server\source\repos\Academia\Academia.Negocio\obj\Debug\Academia.Negocio.csproj.AssemblyReference.cache
+C:\Users\Server\source\repos\Academia\Academia.Negocio\obj\Debug\Academia.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Server\source\repos\Academia\Academia.Negocio\obj\Debug\Academia.Negocio.csproj.CopyComplete
+C:\Users\Server\source\repos\Academia\Academia.Negocio\obj\Debug\Academia.Negocio.dll
+C:\Users\Server\source\repos\Academia\Academia.Negocio\obj\Debug\Academia.Negocio.pdb

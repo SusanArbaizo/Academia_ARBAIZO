@@ -9,5 +9,10 @@
         public string Direccion { get; set; }
         public string Email { get; set; }
 
+        public string NombreCompleto
+        {
+            get { return Codigo + " - " + Apellidos + " " + Nombres; }
+        }
+
     }
 }

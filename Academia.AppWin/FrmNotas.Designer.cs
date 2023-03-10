@@ -100,7 +100,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(149, 168);
+            this.label4.Location = new System.Drawing.Point(150, 171);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 13);
             this.label4.TabIndex = 6;
@@ -148,6 +148,7 @@
             this.txteva1.Name = "txteva1";
             this.txteva1.Size = new System.Drawing.Size(100, 20);
             this.txteva1.TabIndex = 11;
+            this.txteva1.TextChanged += new System.EventHandler(this.txteva1_TextChanged);
             // 
             // txteva2
             // 
@@ -155,6 +156,7 @@
             this.txteva2.Name = "txteva2";
             this.txteva2.Size = new System.Drawing.Size(100, 20);
             this.txteva2.TabIndex = 12;
+            this.txteva2.TextChanged += new System.EventHandler(this.txteva2_TextChanged);
             // 
             // txtparcial
             // 
@@ -162,6 +164,7 @@
             this.txtparcial.Name = "txtparcial";
             this.txtparcial.Size = new System.Drawing.Size(100, 20);
             this.txtparcial.TabIndex = 13;
+            this.txtparcial.TextChanged += new System.EventHandler(this.txtparcial_TextChanged);
             // 
             // txtfinal
             // 
@@ -169,6 +172,7 @@
             this.txtfinal.Name = "txtfinal";
             this.txtfinal.Size = new System.Drawing.Size(100, 20);
             this.txtfinal.TabIndex = 14;
+            this.txtfinal.TextChanged += new System.EventHandler(this.txtfinal_TextChanged);
             // 
             // button1
             // 

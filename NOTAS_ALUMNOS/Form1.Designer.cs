@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.dgvDatos = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -37,7 +38,6 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
             this.SuspendLayout();
@@ -51,6 +51,15 @@
             this.toolStrip1.Size = new System.Drawing.Size(800, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(103, 22);
+            this.toolStripButton1.Text = "Agregar Notas";
+            this.toolStripButton1.Click += new System.EventHandler(this.NuevaNota);
             // 
             // dgvDatos
             // 
@@ -76,14 +85,12 @@
             this.Column1.HeaderText = "IdAulmno";
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            this.Column1.Visible = false;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "IdCurso";
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
-            this.Column2.Visible = false;
             // 
             // Column3
             // 
@@ -108,15 +115,6 @@
             this.Column6.HeaderText = "Final";
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(103, 22);
-            this.toolStripButton1.Text = "Agregar Notas";
-            this.toolStripButton1.Click += new System.EventHandler(this.NuevaNota);
             // 
             // Form1
             // 

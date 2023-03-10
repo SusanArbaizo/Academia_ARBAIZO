@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Academia.AppWin
 {
@@ -36,9 +37,10 @@ namespace Academia.AppWin
         {
             var listadoAlumno = AlumnosBL.Listar();
             cboAlumno.DataSource = listadoAlumno;
-            cboAlumno.DisplayMember = "Nombres";
-            cboAlumno.DisplayMember = "Codigo";
+            cboAlumno.DisplayMember = "NombreCompleto";
             cboAlumno.ValueMember = "ID";
+
+            //cboAlumno.ValueMember = "ID";
 
             var listadoCurso = CursosBL.Listar();
             cboCurso.DataSource = listadoCurso;
@@ -61,6 +63,66 @@ namespace Academia.AppWin
         {
             asignarDatos();
             this.DialogResult = DialogResult.OK;
+        }
+
+        private void txteva1_TextChanged(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(txteva1.Text, out decimal valor) && valor >= 0 && valor <= 20)
+            {
+                // El valor es válido, no se hace nada
+            }
+            else
+            {
+                // El valor no es válido, se muestra un mensaje de error y se borra el valor del TextBox
+                MessageBox.Show("El valor debe estar entre 0 y 20.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txteva1.Text = string.Empty;
+                txteva1.Focus();
+            }
+        }
+
+        private void txteva2_TextChanged(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(txteva2.Text, out decimal valor) && valor >= 0 && valor <= 20)
+            {
+                // El valor es válido, no se hace nada
+            }
+            else
+            {
+                // El valor no es válido, se muestra un mensaje de error y se borra el valor del TextBox
+                MessageBox.Show("El valor debe estar entre 0 y 20.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txteva2.Text = string.Empty;
+                txteva2.Focus();
+            }
+        }
+
+        private void txtparcial_TextChanged(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(txtparcial.Text, out decimal valor) && valor >= 0 && valor <= 20)
+            {
+                // El valor es válido, no se hace nada
+            }
+            else
+            {
+                // El valor no es válido, se muestra un mensaje de error y se borra el valor del TextBox
+                MessageBox.Show("El valor debe estar entre 0 y 20.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtparcial.Text = string.Empty;
+                txtparcial.Focus();
+            }
+        }
+
+        private void txtfinal_TextChanged(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(txtfinal.Text, out decimal valor) && valor >= 0 && valor <= 20)
+            {
+                // El valor es válido
+            }
+            else
+            {
+                // El valor no es válido, se muestra un mensaje de error y se borra el valor del TextBox
+                MessageBox.Show("El valor debe estar entre 0 y 20.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtfinal.Text = string.Empty;
+                txtfinal.Focus();
+            }
         }
     }
 }

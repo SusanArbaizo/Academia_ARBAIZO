@@ -80,6 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Academia.AppWin\Academia.AppWin.csproj">
+      <Project>{68C75241-6E1F-45FA-A8A1-6F6F19716E79}</Project>
+      <Name>Academia.AppWin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Academia.Entidades\Academia.Entidades.csproj">
       <Project>{69AC0557-EDBA-4852-8A76-806009103A0E}</Project>
       <Name>Academia.Entidades</Name>

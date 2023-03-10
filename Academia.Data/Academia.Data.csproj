@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlumnosDB.cs" />
+    <Compile Include="CursosDB.cs" />
     <Compile Include="NotasDB.cs" />
     <Compile Include="UtilDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

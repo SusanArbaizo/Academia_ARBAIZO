@@ -30,10 +30,10 @@ namespace Academia.Data
                                 notas = new Notas();
                                 notas.IdAulmno = (int)lector["IdAulmno"];
                                 notas.IdCurso = (int)lector["IdCurso"];
-                                notas.Eva1 = (int)lector["Eva1"];
-                                notas.Parcial = (int)lector["Parcial"];
-                                notas.Eva2 = (int)lector["Eva2"];
-                                notas.Final = (int)lector["Final"];
+                                notas.Eva1 = (decimal)lector["Eva1"];
+                                notas.Parcial = (decimal)lector["Parcial"];
+                                notas.Eva2 = (decimal)lector["Eva2"];
+                                notas.Final = (decimal)lector["Final"];
 
 
                                 // AGREGAR AL LISTADO

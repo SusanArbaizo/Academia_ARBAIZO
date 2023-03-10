@@ -36,24 +36,24 @@ namespace NOTAS_ALUMNOS
 
         private void NuevaNota(object sender, EventArgs e)
         {
-            //var nuevaNota = new Notas();
-            //var frm = new FrmNotas(nuevaNota);
+            var nuevaNota = new Notas();
+            var frm = new FrmNotas(nuevaNota);
 
-            //if (frm.ShowDialog() == DialogResult.OK)
-            //{
-            //    var resultado = NotasBL.Insertar(nuevaNota);
-            //    if (resultado)
-            //    {
-            //        MessageBox.Show("Datos registrados", "Sistemas",
-            //            MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //        cargarDatos();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("No se ha podido registrar los datos", "Sistemas",
-            //            MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    }
-            //}
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                var resultado = NotasBL.Insertar(nuevaNota);
+                if (resultado)
+                {
+                    MessageBox.Show("Datos registrados", "Sistemas",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    cargarDatos();
+                }
+                else
+                {
+                    MessageBox.Show("No se ha podido registrar los datos", "Sistemas",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

@@ -16,3 +16,5 @@ C:\Users\Server\source\repos\Academia\NOTAS_ALUMNOS\obj\Debug\NOTAS_ALUMNOS.cspr
 C:\Users\Server\source\repos\Academia\NOTAS_ALUMNOS\obj\Debug\NOTAS_ALUMNOS.csproj.CopyComplete
 C:\Users\Server\source\repos\Academia\NOTAS_ALUMNOS\obj\Debug\NOTAS_ALUMNOS.exe
 C:\Users\Server\source\repos\Academia\NOTAS_ALUMNOS\obj\Debug\NOTAS_ALUMNOS.pdb
+C:\Users\Server\source\repos\Academia\NOTAS_ALUMNOS\bin\Debug\Academia.AppWin.dll
+C:\Users\Server\source\repos\Academia\NOTAS_ALUMNOS\bin\Debug\Academia.AppWin.pdb
